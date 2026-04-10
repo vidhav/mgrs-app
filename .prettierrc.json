@@ -1,0 +1,7 @@
+{
+    "objectWrap": "collapse",
+    "plugins": ["prettier-plugin-organize-imports"],
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 4
+}

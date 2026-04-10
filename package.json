@@ -1,0 +1,26 @@
+{
+    "name": "mgrs-app",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "build": "tsc && vite build",
+        "check": "prettier --check index.html package.json tsconfig.json src/*",
+        "dev": "vite",
+        "format": "prettier --write index.html package.json tsconfig.json src/*",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "prettier": "3.8.1",
+        "prettier-plugin-organize-imports": "4.3.0",
+        "typescript": "5.9.3",
+        "vite": "8.0.8"
+    },
+    "dependencies": {
+        "bootstrap": "5.3.8",
+        "mgrs": "2.1.0",
+        "ol": "10.8.0",
+        "vanjs-core": "1.6.0",
+        "vanjs-element": "2.0.0"
+    }
+}

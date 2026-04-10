@@ -4,7 +4,7 @@
     "version": "0.1.0",
     "type": "module",
     "scripts": {
-        "build": "tsc && vite build",
+        "build": "tsc && vite build --base=./",
         "check": "prettier --check index.html package.json tsconfig.json src/*",
         "dev": "vite",
         "format": "prettier --write index.html package.json tsconfig.json src/*",
